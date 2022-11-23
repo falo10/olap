@@ -1,0 +1,23 @@
+
+.header {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.headerImage{
+    background: url(../../assets/images/spices-1905075_1280.jpg) center;
+    background-size: 110%;
+    position: absolute;
+    top: -5%;
+    bottom:-5%;
+    right: -5%;
+    left:-5%;
+    z-index: -1;
+}
+
