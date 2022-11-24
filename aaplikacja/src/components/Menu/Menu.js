@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Menu.moudule.css"
 import useAuth from "../Hoocks/useAuth";
+import {Link} from "react-router-dom";
 
 function Menu() {
   const [auth, setAuth] = useAuth();
@@ -19,7 +20,9 @@ const logout = (e)=> {
       <div className={`${style.menuContainer} breadcrumb`}>
          <ul className={style.menu}>
          <li className={style.menuItem}>
-         <a href="http://localhost:3004/"> home </a>
+             <Link to={`/`}>
+                 home
+             </Link>
            </li>
          {auth ? (
           <li className={style.menuItem}>

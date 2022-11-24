@@ -73,7 +73,7 @@ const header = (
 
   const content = ( 
   <>
-<Route exact={true} paht ='/'>
+<Route exact={true} path ='/'>
 <Home/>
 </Route>
 
